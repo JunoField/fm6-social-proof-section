@@ -24,9 +24,34 @@ h1{
     font-size: 13.5pt;
     font-weight: 500;
     line-height: 24px;
-    margin: 24px 13px 20px 10px;
+    margin: 24px 13px 42px 10px;
 }
 
 .pro-review{
-    width: 87%;
+    margin: auto 18px auto 18px;
+    background-color: $lightGreyishMagenta;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 7px;
+    p{
+        font-weight: 700;
+        color: $veryDarkMagenta;
+        padding-bottom: 15px;
+    }
+}
+
+.stars{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto -8px auto auto;
+
+    img{
+        margin-right: 8px;
+    }
+}
+
+.customer-review{
+    background-color: $veryDarkMagenta;
+    
 }

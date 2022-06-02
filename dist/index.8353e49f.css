@@ -13,14 +13,39 @@ h1 {
 
 #intro {
   color: #937b92;
-  margin: 24px 13px 20px 10px;
+  margin: 24px 13px 42px 10px;
   font-size: 13.5pt;
   font-weight: 500;
   line-height: 24px;
 }
 
 .pro-review {
-  width: 87%;
+  text-align: center;
+  background-color: #f7f2f7;
+  border-radius: 7px;
+  margin: auto 18px;
+  padding-top: 15px;
+}
+
+.pro-review p {
+  color: #502050;
+  padding-bottom: 15px;
+  font-weight: 700;
+}
+
+.stars {
+  flex-direction: row;
+  justify-content: center;
+  margin: auto -8px auto auto;
+  display: flex;
+}
+
+.stars img {
+  margin-right: 8px;
+}
+
+.customer-review {
+  background-color: #502050;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */
