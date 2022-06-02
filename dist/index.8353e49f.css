@@ -11,4 +11,16 @@ h1 {
   line-height: 33px;
 }
 
+#intro {
+  color: #937b92;
+  margin: 24px 13px 20px 10px;
+  font-size: 13.5pt;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.pro-review {
+  width: 87%;
+}
+
 /*# sourceMappingURL=index.8353e49f.css.map */
