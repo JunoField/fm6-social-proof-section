@@ -1,0 +1,20 @@
+$veryDarkMagenta: hsl(300, 43%, 22%);
+$softPink: hsl(333, 80%, 67%);
+$darkGreyishMagenta: hsl(303, 10%, 53%);
+$lightGreyishMagenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+
+body{
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+h1{
+    color: $veryDarkMagenta;
+    font-weight: 700;
+    font-size: 37px;
+    margin: 81px 30px auto 30px;
+    line-height: 33px;
+}   
