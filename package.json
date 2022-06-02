@@ -1,0 +1,25 @@
+{
+  "name": "fm6-social-proof-section",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "shx rm -rf dist/*",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url https://junofield.github.io/fm6-social-proof-section"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JunoField/fm6-social-proof-section.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JunoField/fm6-social-proof-section/issues"
+  },
+  "homepage": "https://github.com/JunoField/fm6-social-proof-section#readme",
+  "dependencies": {
+    "parcel": "^2.6.0",
+    "shx": "^0.3.4"
+  }
+}
