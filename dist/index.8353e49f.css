@@ -3,17 +3,21 @@ body {
   font-family: League Spartan, sans-serif;
 }
 
-h1 {
+#intro {
+  margin: 81px 13px 42px 10px;
+}
+
+#intro h1 {
   color: #502050;
-  margin: 81px 30px auto;
+  margin: 0 17px auto 20px;
   font-size: 37px;
   font-weight: 700;
   line-height: 33px;
 }
 
-#intro {
+#intro p {
   color: #937b92;
-  margin: 24px 13px 42px 10px;
+  margin: 24px 0 0;
   font-size: 13.5pt;
   font-weight: 500;
   line-height: 24px;
@@ -103,6 +107,30 @@ h1 {
   position: fixed;
   bottom: 1px;
   right: 0;
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    padding: 110px 158px 118px;
+  }
+
+  #intro {
+    text-align: left;
+    max-width: 450px;
+    margin: 0;
+  }
+
+  #intro h1 {
+    letter-spacing: -1.3px;
+    margin: 0;
+    font-size: 41pt;
+    line-height: 48px;
+  }
+
+  #intro p {
+    margin-top: 26px;
+    line-height: 25px;
+  }
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */

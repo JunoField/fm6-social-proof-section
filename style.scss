@@ -10,22 +10,28 @@ body{
     font-family: 'League Spartan', sans-serif;
 }
 
-//top tagline
-h1{
-    color: $veryDarkMagenta;
-    font-weight: 700;
-    font-size: 37px;
-    margin: 81px 30px auto 30px;
-    line-height: 33px;
-}   
+
 
 //intro paragraph
 #intro{
-    color: $darkGreyishMagenta;
-    font-size: 13.5pt;
-    font-weight: 500;
-    line-height: 24px;
-    margin: 24px 13px 42px 10px;
+    margin: 81px 13px 42px 10px;
+
+    h1{
+        color: $veryDarkMagenta;
+        font-weight: 700;
+        font-size: 37px;
+        margin: 0px 17px auto 20px;
+        line-height: 33px;
+    }
+
+    p{
+        color: $darkGreyishMagenta;
+        font-size: 13.5pt;
+        font-weight: 500;
+        line-height: 24px;
+        margin: 24px 0px 0px 0px;
+    }
+
 }
 
 //for each professional review
@@ -126,5 +132,25 @@ h1{
 
 // Desktop-only styling
 @media only screen and (min-width: 1200px){
+    body{
+        padding: 110px 158px 118px 158px;
+    }
 
+    #intro{
+        text-align: left;
+        margin: 0px;
+        max-width: 450px; //temporary - will use grid
+
+        h1{
+            margin: 0px;
+            font-size: 41pt;
+            letter-spacing: -1.3px;
+            line-height: 48px;
+        }
+
+        p{
+            margin-top: 26px;
+            line-height: 25px;
+        }
+    }
 }
