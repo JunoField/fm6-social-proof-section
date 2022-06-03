@@ -45,7 +45,40 @@ h1 {
 }
 
 .customer-review {
+  text-align: left;
   background-color: #502050;
+  border-radius: 7px;
+  margin: auto 18px;
+}
+
+.customer-review-header {
+  flex-direction: row;
+  display: flex;
+}
+
+.customer-review-header img {
+  max-width: 42px;
+  max-height: 42px;
+  border-radius: 50%;
+  margin: 40px auto auto 31px;
+}
+
+.customer-review-header div {
+  position: relative;
+  top: 43px;
+  left: -122px;
+}
+
+.customer-review-header h3 {
+  color: #fff;
+  margin: 0 auto auto;
+  font-weight: 700;
+}
+
+.customer-review-header h4 {
+  color: #ee68a4;
+  margin: 5px auto auto;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */
