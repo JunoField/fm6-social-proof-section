@@ -10,7 +10,7 @@ body{
     font-family: 'League Spartan', sans-serif;
 }
 
-
+//top tagline
 h1{
     color: $veryDarkMagenta;
     font-weight: 700;
@@ -19,6 +19,7 @@ h1{
     line-height: 33px;
 }   
 
+//intro paragraph
 #intro{
     color: $darkGreyishMagenta;
     font-size: 13.5pt;
@@ -27,6 +28,7 @@ h1{
     margin: 24px 13px 42px 10px;
 }
 
+//for each professional review
 .pro-review{
     margin: auto 18px auto 18px;
     background-color: $lightGreyishMagenta;
@@ -51,10 +53,12 @@ h1{
     }
 }
 
+//top gap for first customer review
 .customer-review:first-of-type{
     margin-top: 47px;
 }
 
+//for each customer review
 .customer-review{
     background-color: $veryDarkMagenta;
     margin: 16px 16px auto 17px;
@@ -77,6 +81,7 @@ h1{
 
 }
 
+//image, name and "verified buyer" elements for each customer
 .customer-review-header{
     display: flex;
     flex-direction: row;
@@ -106,13 +111,20 @@ h1{
     }
 }
 
+//bottom-of-screen margin
 .customer-review:last-of-type{
     margin-bottom: 99px;
 }
+
 
 .attribution{
     font-size: 8pt;
     position: fixed;
     right: 0px;
     bottom: 1px;
+}
+
+// Desktop-only styling
+@media only screen and (min-width: 1200px){
+
 }
