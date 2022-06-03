@@ -44,11 +44,25 @@ h1 {
   margin-right: 8px;
 }
 
+.customer-review:first-of-type {
+  margin-top: 47px;
+}
+
 .customer-review {
   text-align: left;
   background-color: #502050;
   border-radius: 7px;
-  margin: auto 18px;
+  margin: 16px 16px auto 17px;
+  padding: 31px;
+}
+
+.customer-review p {
+  color: #fff;
+  margin: 26px 0 auto;
+  font-family: League Spartan, serif;
+  font-size: 12.4pt;
+  font-weight: 500;
+  line-height: 22px;
 }
 
 .customer-review-header {
@@ -60,13 +74,13 @@ h1 {
   max-width: 42px;
   max-height: 42px;
   border-radius: 50%;
-  margin: 40px auto auto 31px;
+  margin: 9px auto auto 0;
 }
 
 .customer-review-header div {
   position: relative;
-  top: 43px;
-  left: -122px;
+  top: 12px;
+  left: -92px;
 }
 
 .customer-review-header h3 {
@@ -79,6 +93,17 @@ h1 {
   color: #ee68a4;
   margin: 5px auto auto;
   font-weight: 400;
+}
+
+.customer-review:last-of-type {
+  margin-bottom: 99px;
+}
+
+.attribution {
+  font-size: 8pt;
+  position: fixed;
+  bottom: 1px;
+  right: 0;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */

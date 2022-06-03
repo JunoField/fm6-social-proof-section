@@ -51,15 +51,28 @@ h1{
     }
 }
 
+.customer-review:first-of-type{
+    margin-top: 47px;
+}
+
 .customer-review{
     background-color: $veryDarkMagenta;
-    margin: auto 18px auto 18px;
+    margin: 16px 16px auto 17px;
     border-radius: 7px;
     text-align: left;
+    padding: 31px;
+
 
     p{
-        
+        font-family: 'League Spartan', serif;
+        margin: 26px 0px auto 0px;
+        color: $white;
+        font-size: 12.4pt;
+        font-weight: 500;
+        line-height: 22px;
     }
+
+ 
 
 
 }
@@ -71,13 +84,13 @@ h1{
         max-width: 42px;
         max-height: 42px;
         border-radius: 50%;
-        margin: 40px auto auto 31px;
+        margin: 9px auto auto 0px;
     }
 
     div{
         position: relative;
-        left: -122px;
-        top: 43px;
+        left: -92px;
+        top: 12px;
     }
 
     h3{
@@ -92,4 +105,15 @@ h1{
         color: $softPink;
 
     }
+}
+
+.customer-review:last-of-type{
+    margin-bottom: 99px;
+}
+
+.attribution{
+    font-size: 8pt;
+    position: fixed;
+    right: 0px;
+    bottom: 1px;
 }
