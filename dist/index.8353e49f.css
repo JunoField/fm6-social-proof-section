@@ -111,7 +111,10 @@ body {
 
 @media only screen and (min-width: 1200px) {
   body {
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
     padding: 110px 158px 118px;
+    display: grid;
   }
 
   #intro {
@@ -130,6 +133,47 @@ body {
   #intro p {
     margin-top: 26px;
     line-height: 25px;
+  }
+
+  .pro-review {
+    width: 445px;
+    flex-direction: row;
+    margin: auto auto 20px;
+    padding: 21px;
+    display: flex;
+  }
+
+  .pro-review p {
+    margin: auto auto -15px 25px;
+  }
+
+  .stars {
+    justify-content: flex-start;
+    margin: auto 0 auto 13px;
+  }
+
+  .stars img {
+    height: 17px;
+    width: 17px;
+  }
+
+  #customer-review-section {
+    grid-column-template: auto auto auto;
+    grid-row-template: auto;
+    grid-area: 2 / 1 / auto / span 2;
+    display: grid;
+  }
+
+  #review-colton {
+    grid-column: 1;
+  }
+
+  #review-irene {
+    grid-column: 2;
+  }
+
+  #review-anne {
+    grid-column: 3;
   }
 }
 
