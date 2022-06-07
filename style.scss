@@ -164,13 +164,12 @@ body{
         }
     }
 
-    /*
+    
     #pro-review-section{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 0;
-        grid-row-end: 1;
-    }*/
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 47px 47px auto 47px 47px;
+    }
 
 
     .pro-review{
@@ -193,6 +192,24 @@ body{
             width: 17px;
         }
     }
+
+    #review-reviews{
+        grid-row: 1;
+        grid-column: 1 / span 3;
+    }
+
+    #review-reportguru{
+        grid-row: 2;
+        grid-column: 2 / span 3;
+    }
+
+    #review-besttech{
+        grid-row: 3;
+        grid-column: 3 / span 3;
+    }
+
+
+
 
 
 

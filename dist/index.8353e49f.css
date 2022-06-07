@@ -135,6 +135,12 @@ body {
     line-height: 25px;
   }
 
+  #pro-review-section {
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 47px 47px auto 47px 47px;
+    display: grid;
+  }
+
   .pro-review {
     width: 445px;
     flex-direction: row;
@@ -155,6 +161,18 @@ body {
   .stars img {
     height: 17px;
     width: 17px;
+  }
+
+  #review-reviews {
+    grid-area: 1 / 1 / auto / span 3;
+  }
+
+  #review-reportguru {
+    grid-area: 2 / 2 / auto / span 3;
+  }
+
+  #review-besttech {
+    grid-area: 3 / 3 / auto / span 3;
   }
 
   #customer-review-section {
