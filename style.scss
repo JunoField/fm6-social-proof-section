@@ -219,24 +219,29 @@ body{
 
         display: grid;
         grid-column-template: auto auto auto;
-        grid-row-template: auto;
+        grid-row-template: 15px 15px auto 15px 15px;
     }
 
 
-
+    .customer-review{
+        margin: 0px 30px auto auto;
+    }
 
 
     #review-colton{
-        grid-column: 1
+        grid-column: 1;
+        grid-row: 1 / span 3;
     }
 
     #review-irene{
         grid-column: 2;
+        grid-row: 2 / span 3;
 
     }
 
     #review-anne{
         grid-column: 3;
+        grid-row: 3 / span 3;
     }
 
 }
