@@ -8,6 +8,7 @@ $white: hsl(0, 0%, 100%);
 body{
     text-align: center;
     font-family: 'League Spartan', sans-serif;
+    background-repeat: no-repeat;
 }
 
 
@@ -137,47 +138,46 @@ body{
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
-        
+        background: $white;
     }
 
     #intro{
-        /*grid-column-start: 0;
-        grid-column-end: 1;
-        grid-row-start: 0;
-        grid-row-end: 1;*/
-
-
-        text-align: left;
-        margin: 0px;
-        max-width: 450px; //temporary - will use grid
-
+        grid-column: 1;
+        grid-row: 1;
+        margin: 0px 0px auto auto;
         h1{
             margin: 0px;
             font-size: 41pt;
             letter-spacing: -1.3px;
             line-height: 48px;
+            text-align: left;
         }
 
         p{
             margin-top: 26px;
             line-height: 25px;
+            text-align: left;
         }
     }
 
     
     #pro-review-section{
+        grid-column: 2;
+        grid-row: 1;
+
         display: grid;
         grid-template-rows: auto auto auto;
         grid-template-columns: 47px 47px auto 47px 47px;
+        margin: 27px 0px auto auto;
     }
 
 
     .pro-review{
-        width: 445px;
+        width: 405px;
         display: flex;
         flex-direction: row;
-        margin: auto auto 20px auto;
-        padding: 21px;
+        margin: auto auto 17px auto;
+        padding: 20px;
         p{
             margin: auto auto -15px 25px;
 
@@ -217,31 +217,37 @@ body{
         grid-row: 2;
         grid-column: 1 / span 2;
 
-        display: grid;
-        grid-column-template: auto auto auto;
-        grid-row-template: 15px 15px auto 15px 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: max(67px, 10%);
     }
 
 
     .customer-review{
-        margin: 0px 30px auto auto;
+        margin: auto 30px auto auto;
+        padding-bottom: 37px;
+
     }
+
+    .customer-review.customer-review:last-of-type{
+        margin: auto 0px auto auto;
+    }
+
 
 
     #review-colton{
-        grid-column: 1;
-        grid-row: 1 / span 3;
+        margin-top: 0px;
+
     }
 
     #review-irene{
-        grid-column: 2;
-        grid-row: 2 / span 3;
+        margin-top: 16px;
 
     }
 
     #review-anne{
-        grid-column: 3;
-        grid-row: 3 / span 3;
+        margin-top: 32px;
     }
 
 }
