@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-repeat: no-repeat;
+  background: url("bg-pattern-top-mobile.701bdbf3.svg") 0 0 no-repeat, #fff url("bg-pattern-bottom-mobile.976631e2.svg") 100% 100% no-repeat;
   font-family: League Spartan, sans-serif;
 }
 
@@ -112,7 +112,7 @@ body {
 
 @media only screen and (min-width: 1200px) {
   body {
-    background: #fff;
+    background: url("bg-pattern-top-desktop.7ad00b89.svg") 0 0 no-repeat, #fff url("bg-pattern-bottom-desktop.de62f61e.svg") 100% 100% no-repeat;
     grid-template-rows: auto auto;
     grid-template-columns: auto auto;
     padding: 110px 158px 118px;
@@ -133,6 +133,7 @@ body {
   }
 
   #intro p {
+    min-width: 350px;
     text-align: left;
     margin-top: 26px;
     line-height: 25px;
@@ -184,7 +185,7 @@ body {
     flex-direction: row;
     grid-area: 2 / 1 / auto / span 2;
     justify-content: center;
-    margin-top: max(67px, 10%);
+    margin-top: 67px;
     display: flex;
   }
 
