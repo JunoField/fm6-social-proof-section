@@ -1,3 +1,4 @@
+//color variable declarations
 $veryDarkMagenta: hsl(300, 43%, 22%);
 $softPink: hsl(333, 80%, 67%);
 $darkGreyishMagenta: hsl(303, 10%, 53%);
@@ -16,10 +17,10 @@ body{
 
 
 
-//intro paragraph
+//tagline and intro paragraph
 #intro{
     margin: 81px 13px 42px 10px;
-
+    //tagline
     h1{
         color: $veryDarkMagenta;
         font-weight: 700;
@@ -27,7 +28,7 @@ body{
         margin: 0px 17px auto 20px;
         line-height: 33px;
     }
-
+    //intro paragraph
     p{
         color: $darkGreyishMagenta;
         font-size: 13.5pt;
@@ -38,13 +39,14 @@ body{
 
 }
 
-//for each professional review
+//professional review (Reviews, Report Guru, BestTech)
 .pro-review{
     margin: auto 18px auto 18px;
     background-color: $lightGreyishMagenta;
     text-align: center;
     padding-top: 15px;
     border-radius: 7px;
+    //text:
     p{
         font-weight: 700;
         color: $veryDarkMagenta;
@@ -52,6 +54,7 @@ body{
     }
 }
 
+//sets of 5 star icons (for professional reviews(^))
 .stars{
     display: flex;
     flex-direction: row;
@@ -63,12 +66,13 @@ body{
     }
 }
 
-//top gap for first customer review
-.customer-review:first-of-type{
-    margin-top: 47px;
+//div for customer reviews
+#customer-review-section{
+    margin-top: 51px;
+    margin-bottom: 99px;
 }
 
-//for each customer review
+//customer review (Colton/Irene/Anne)
 .customer-review{
     background-color: $veryDarkMagenta;
     margin: 16px 16px auto 17px;
@@ -76,7 +80,7 @@ body{
     text-align: left;
     padding: 31px;
 
-
+    //review body text
     p{
         font-family: 'League Spartan', serif;
         margin: 26px 0px auto 0px;
@@ -101,18 +105,20 @@ body{
         border-radius: 50%;
         margin: 9px 22px auto 0px;
     }
-
+    //stacked text elements
     div{
         position: relative;
         top: 12px;
     }
 
+    //name
     h3{
         margin: 0px auto auto auto;
         font-weight: 700;
         color: $white;
 
     }
+    //"Verified Buyer" element
     h4{
         margin: 5px auto auto auto;
         font-weight: 400;
@@ -121,12 +127,7 @@ body{
     }
 }
 
-//bottom-of-screen margin
-.customer-review:last-of-type{
-    margin-bottom: 99px;
-}
-
-
+//attribution element
 .attribution{
     font-size: 8pt;
     position: fixed;
@@ -135,11 +136,12 @@ body{
 }
 
 
-// Desktop-only styling
+//Desktop-only styling - media query
 @media only screen and (min-width: 1200px){
     body{
+        //using grid now as elements are no longer stacked
         padding: 110px 158px 118px 158px;
-        display: grid;
+        display: grid; 
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         background: $white url(images/bg-pattern-top-desktop.svg), $white url(images/bg-pattern-bottom-desktop.svg);
@@ -224,24 +226,21 @@ body{
         grid-row: 2;
         grid-column: 1 / span 2;
 
-        display: flex;
+        display: flex; //tried grid but had issues, so using flex w/ margins for placement.
         flex-direction: row;
         justify-content: center;
-        margin-top: 67px
+        margin-top: 67px;
     }
 
 
     .customer-review{
         margin: auto 30px auto auto;
         padding-bottom: 37px;
+        &:last-of-type{
+            margin: auto 0px auto auto;
+        }
 
     }
-
-    .customer-review.customer-review:last-of-type{
-        margin: auto 0px auto auto;
-    }
-
-
 
     #review-colton{
         margin-top: 0px;
@@ -256,5 +255,4 @@ body{
     #review-anne{
         margin-top: 32px;
     }
-
 }
