@@ -1,5 +1,9 @@
 # Frontend Mentor - Social proof section solution
 
+> 🚧 ***NOTE:***
+> I am now aware of the sheer number of HTML and accessibility errors - I plan to fix these tomorrow.
+
+
 This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
