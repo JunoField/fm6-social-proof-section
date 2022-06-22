@@ -112,17 +112,21 @@ body{
     }
 
     //name
-    h3{
-        margin: 0px auto auto auto;
+    h2{
+        margin: -2px auto auto auto;
         font-weight: 700;
         color: $white;
+        font-size: 14pt;
+        line-height: 15pt;
 
     }
+
     //"Verified Buyer" element
-    h4{
+    h3{
         margin: 5px auto auto auto;
         font-weight: 400;
         color: $softPink;
+        font-size: 12pt;
 
     }
 }
